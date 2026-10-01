@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Autoevaluación — Cuadernillo Ley de Promoción del Buen Trato</title>
+<meta name="description" content="Autoevaluación tipo Duolingo sobre el cuadernillo de la Ley de Promoción del Buen Trato: preguntas por módulo, feedback inmediato, racha y XP.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/estilos.css">
+<link rel="stylesheet" href="assets/evaluacion.css">
+</head>
+<body class="quiz-body">
+
+<header class="quiz-top">
+  <a class="quiz-salir" href="index.html" aria-label="Salir">✕</a>
+  <div class="quiz-progreso"><div class="quiz-progreso-barra" id="barra"></div></div>
+  <div class="quiz-marcadores">
+    <span class="marcador" title="Racha">RACHA <b id="racha">0</b></span>
+    <span class="marcador" title="Experiencia">XP <b id="xp">0</b></span>
+    <span class="marcador vidas" title="Vidas" id="vidas"></span>
+  </div>
+</header>
+
+<main class="quiz-main">
+  <div class="quiz-contenido" id="pantalla"></div>
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script src="assets/preguntas.js"></script>
+<script src="assets/quiz.js"></script>
+</body>
+</html>
